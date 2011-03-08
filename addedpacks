@@ -9,6 +9,8 @@ mpg123
 ogg123
 mplayer
 scrot
+sshfs
+smbclient
 
 ## Servers
 hal
@@ -30,33 +32,4 @@ nitrogen
 feh
 dmenu
 xcompmgr
-flashplugin## Console tools
-tmux
-nmap
-wicd
-vim
-irssi
-acpi
-mpg123
-ogg123
-mplayer
-scrot
-
-## Security and Privacy Tools
-macchanger
-aircrack-ng
-tor
-privoxy
-dsniff
-nmap
-tcpdump
-john
-
-## GUI Stuff
-dmenu
-feh
-nitrogen
-xcompmgr
 flashplugin
-pcmanfm
-firefox
