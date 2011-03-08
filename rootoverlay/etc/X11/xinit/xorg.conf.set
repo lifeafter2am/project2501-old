@@ -1,0 +1,17 @@
+#!/bin/bash
+if [ -f /etc/X11/xorg.conf.base ]; then
+    cp -f /etc/X11/xorg.conf.base /etc/X11/xorg.conf
+    vesa=""
+    nv="nouveau"
+    for x in $(cat /proc/cmdline); do
+        [ "${x}" = "nox" ] && :> /tmp/_nox_
+        [ "${x}" = "xvesa" ] && vesa=y
+        [ "${x}" = "nv" ] && nv="nv"
+        [ "${x}" = "nodri" ] && sed 's|^#nodri||' -i /etc/X11/xorg.conf
+    done
+    if [ -n "$vesa" ]; then
+        sed 's|^#xvesa||' -i /etc/X11/xorg.conf
+    elif $( lspci | grep "VGA .*nVidia" &>/dev/null ); then
+        sed -e 's|^#nv||' -e "s|_nv_|$nv|" -i /etc/X11/xorg.conf
+    fi
+fi

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-desktop" version="1.0">
+  <property name="backdrop" type="empty">
+    <property name="screen0" type="empty">
+      <property name="monitor0" type="empty">
+        <property name="brightness" type="int" value="-34"/>
+        <property name="color1" type="array">
+          <value type="uint" value="64779"/>
+          <value type="uint" value="26529"/>
+          <value type="uint" value="9264"/>
+          <value type="uint" value="65535"/>
+        </property>
+        <property name="color2" type="array">
+          <value type="uint" value="49095"/>
+          <value type="uint" value="64267"/>
+          <value type="uint" value="19124"/>
+          <value type="uint" value="65535"/>
+        </property>
+        <property name="color-style" type="int" value="2"/>
+        <property name="image-path" type="empty"/>
+        <property name="image-style" type="empty"/>
+        <property name="image-show" type="bool" value="false"/>
+        <property name="last-image" type="empty"/>
+        <property name="last-single-image" type="empty"/>
+        <property name="saturation" type="double" value="0.000000"/>
+      </property>
+    </property>
+  </property>
+  <property name="desktop-icons" type="empty">
+    <property name="file-icons" type="empty">
+      <property name="show-filesystem" type="bool" value="false"/>
+      <property name="show-home" type="bool" value="false"/>
+      <property name="show-removable" type="bool" value="false"/>
+      <property name="show-trash" type="bool" value="false"/>
+    </property>
+  </property>
+</channel>

@@ -1,0 +1,10 @@
+#!/bin/bash
+#
+# /etc/rc.local: Local multi-user startup script.
+#
+
+# Restore saved sound volume, etc.
+alsactl restore
+
+# May help reduce load cycle count on laptops. 254 or 255 may be necessary.
+hdparm -B 200 /dev/sda

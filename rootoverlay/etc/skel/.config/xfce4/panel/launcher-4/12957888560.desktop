@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Type=Application
+Name=File Manager
+Comment=Manage files and folders
+Icon=gnome-fs-home
+Exec=thunar
+Path=
+Terminal=false
+StartupNotify=false
+

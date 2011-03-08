@@ -1,0 +1,7 @@
+on_mount_cmd=
+excluded_filesystems=/home / /var/lib/pacman gvfs-fuse-daemon
+message_dialog=1
+exclude_FSs=1
+eject_drives=1
+icon=gdu-unmount
+
