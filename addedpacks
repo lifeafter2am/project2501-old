@@ -6,7 +6,6 @@ vim
 irssi
 acpi
 mpg123
-ogg123
 mplayer
 scrot
 sshfs
@@ -27,9 +26,13 @@ tcpdump
 john
 
 ## GUI stuff
+xmonad
+xmonad-contrib
+dzen2
+conky
 firefox
 nitrogen
 feh
 dmenu
 xcompmgr
-flashplugin
+#flashplugin

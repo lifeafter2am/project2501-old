@@ -4,7 +4,7 @@
 #
 
 # Restore saved sound volume, etc.
-alsactl restore
+#alsactl restore
 
 # May help reduce load cycle count on laptops. 254 or 255 may be necessary.
-hdparm -B 200 /dev/sda
+#hdparm -B 200 /dev/sda
