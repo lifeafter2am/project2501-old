@@ -11,6 +11,9 @@ scrot
 sshfs
 smbclient
 sudo
+pianobar-git
+python-xynehttpserver
+quickserve
 
 ## Servers
 hal
@@ -25,15 +28,22 @@ dsniff
 nmap
 tcpdump
 john
+hydra
+metasploit
 
 ## GUI stuff
-xmonad
-xmonad-contrib
-dzen2
-conky
+xorg-server-compositing-fix
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-synaptics
+xmonad-darcs
+xmonad-contrib-darcs
+conky-cli
+dzen2-xft-xpm-xinerama-svn
 firefox
 nitrogen
 feh
 dmenu
 xcompmgr
+rxvt-unicode-patched
 #flashplugin
