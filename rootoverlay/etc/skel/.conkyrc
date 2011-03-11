@@ -1,0 +1,12 @@
+# Set to yes if you want Conky to be forked in the background
+background no
+
+out_to_console yes
+
+# Update interval in seconds
+update_interval 1
+
+color1 ef89bb
+
+TEXT
+^fg(\#888888)||^i(/home/pptmstr/.dzen/cpu.xbm) ^fg(\#ffffff)${cpu cpu1}% ${cpu cpu2}% @ $freq MHz^fg(\#888888)||^i(/home/pptmstr/.dzen/mem.xbm) ^fg(\#ffffff)$mem/$memmax^fg(\#888888)||^i(/home/pptmstr/.dzen/net_down.xbm) ^fg(\#ffffff)${downspeed wlan0}^fg(\#888888)^i(/home/pptmstr/.dzen/net_up.xbm) ^fg(\#ffffff)${upspeed wlan0}^fg(\#888888)||^i(/home/pptmstr/.dzen/clock.xbm) ^fg(\#ffffff)${time}^fg(\#888888)||^i(/home/pptmstr/.dzen/bat_full_01.xbm)^fg(\#ffffff) ${battery_percent}% - $battery_time^fg(\#888888)||
