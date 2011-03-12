@@ -28,7 +28,6 @@ dsniff
 nmap
 tcpdump
 john
-hydra
 metasploit
 
 ## GUI stuff
@@ -36,14 +35,17 @@ xorg-server-compositing-fix
 xf86-input-evdev
 xf86-input-keyboard
 xf86-input-synaptics
-xmonad-darcs
-xmonad-contrib-darcs
+xf86-video-nouveau
+xf86-video-intel
+xf86-video-ati
+xmonad
+xmonad-contrib
 conky-cli
 dzen2-xft-xpm-xinerama-svn
 firefox
-nitrogen
 feh
 dmenu
 xcompmgr
 rxvt-unicode-patched
-#flashplugin
+artwiz-fonts
+flashplugin
