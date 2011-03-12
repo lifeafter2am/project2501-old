@@ -39,6 +39,7 @@ xf86-input-synaptics
 xf86-video-nouveau
 xf86-video-intel
 xf86-video-ati
+xorg
 xmonad
 xmonad-contrib
 conky-cli
