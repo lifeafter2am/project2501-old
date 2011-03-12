@@ -11,4 +11,5 @@ larch:      Server = ftp://ftp.berlios.de/pub/larch/larch8/*platform*
 core:       *default*
 extra:      *default*
 community:  *default*
+multilib:   Include = /etc/pacman.d/mirrorlist
 project2501: Server = file:///home/ishikawa/development/repo/project2501_repo/
