@@ -1,0 +1,15 @@
+# The information here will be adapted for the bootloader and inserted into its configuration
+# file at the place marked '###LARCH'
+# This header will be removed. 
+# Each block must have an empty line before and after it.
+# There may be no empty lines within a block.
+
+comment:
+title: project2501
+options:
+
+comment:
+title: project2501 with swap
+options: swap
+
+# END OF FILE
