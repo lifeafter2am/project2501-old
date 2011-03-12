@@ -1,11 +1,10 @@
 ## Console tools
 tmux
 nmap
-wicd
 vim
 irssi
 acpi
-mpg123
+cmus
 mplayer
 scrot
 sshfs
@@ -14,10 +13,12 @@ sudo
 pianobar-git
 python-xynehttpserver
 quickserve
+links
 
 ## Servers
 hal
 openssh
+wicd
 
 ## Security and Privacy Tools
 macchanger
