@@ -11,4 +11,4 @@ larch:      Server = ftp://ftp.berlios.de/pub/larch/larch8/*platform*
 core:       *default*
 extra:      *default*
 community:  *default*
-project2501: file:///home/ishikawa/development/repo/project2501_repo/
+project2501: Server = file:///home/ishikawa/development/repo/project2501_repo/
