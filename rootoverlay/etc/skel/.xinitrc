@@ -4,8 +4,8 @@
  
 xrdb -merge .Xresources
  
-# Set Dual or Single Screen Wallpapers
-nitrogen --restore &
+# Set Wallpaper
+cat ~./fehbg &
 
 # Fire up apps
 urxvtd &
