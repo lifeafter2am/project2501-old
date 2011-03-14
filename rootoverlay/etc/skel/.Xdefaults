@@ -1,6 +1,9 @@
 URxvt.foreground: white
-
-URxvt.depth: 32
+URxvt.transparent: true
+URxvt.inheritPixmap: true
+URxvt.reverseVideo: false
+Urxvt.shading: 10
+URxvt.depth: 24
 URxvt.background: rgba:0000/0000/0000/dddd
 URxvt.loginShell: true
 URxvt.fading: 30
