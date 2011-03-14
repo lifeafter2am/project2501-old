@@ -4,7 +4,8 @@ nmap
 vim
 irssi
 acpi
-cmus
+mpg123
+moc
 mplayer
 scrot
 sshfs
@@ -30,6 +31,7 @@ nmap
 tcpdump
 john
 metasploit
+kismet
 
 ## GUI stuff
 xorg-server-compositing-fix
