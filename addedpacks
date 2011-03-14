@@ -34,7 +34,7 @@ metasploit
 kismet
 
 ## GUI stuff
-xorg-server-compositing-fix
+xorg-server
 xf86-input-evdev
 xf86-input-keyboard
 xf86-input-synaptics
@@ -49,7 +49,6 @@ dzen2-xft-xpm-xinerama-svn
 firefox
 feh
 dmenu
-xcompmgr
 rxvt-unicode-patched
 artwiz-fonts
 flashplugin
