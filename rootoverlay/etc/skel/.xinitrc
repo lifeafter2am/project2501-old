@@ -5,7 +5,7 @@
 xrdb -merge .Xresources
  
 # Set Wallpaper
-cat ~./fehbg &
+feh --bg-fill '/home/pptmstr/wallpaper.jpg' &
 
 # Fire up apps
 urxvtd &
