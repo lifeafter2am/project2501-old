@@ -1,0 +1,3 @@
+## Packages we don't want installed
+xterm
+xorg-font-utils
