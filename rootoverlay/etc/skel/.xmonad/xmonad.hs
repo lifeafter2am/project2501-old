@@ -76,7 +76,7 @@ main = do
     d <- spawnDzen myLeftBar
 
     spawnToDzen "conky -c /home/pptmstr/.conkyrc" myRightBar
---    spawn "xcompmgr"  
+    spawn "xcompmgr"  
     xmonad $ defaultConfig
         { manageHook         = myManageHook 
         , terminal           = "urxvtc"
