@@ -1,13 +1,14 @@
 URxvt.foreground: white
-
-
-
-
+URxvt.transparent: true
 URxvt.depth: 32
 URxvt.background: rgba:0000/0000/0000/dddd
 URxvt.loginShell: true
-URxvt.fading: 30
+URxvt.inheritPixmap: true
+URxvt.reverseVideo: false
+URxvt.shading: 10
+URxvt.fading: 20  !term unfocus
 URxvt.fadeColor: [0]black
+URxvt.tintColor: #dfdfdf
 URxvt.perl-lib: /usr/lib/urxvt/perl
 URxvt.keysym.M-u: perl:mark-yank-urls:activate_mark_mode
 URxvt.underlineURLs: true
@@ -19,3 +20,8 @@ URxvt.underlineColor: blue
 URxvt.saveLines: 65535
 URxvt.scrollBar: false
 URxvt.font: xft:clean
+
+
+URxvt*urlLauncher: firefox
+URxvt*matcher.button: 1
+URxvt*perl-ext-common: matcher
