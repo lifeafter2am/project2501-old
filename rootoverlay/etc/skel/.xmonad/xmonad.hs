@@ -46,7 +46,7 @@ myUrgencyHintBgColor   = "brown"
 -- layout definitions
 customLayout = avoidStruts $ ResizableTall 2 (3/100) (1/2) [] ||| Full
 
--- Workspaces
+-- Image Based Workspaces
 myWorkspaces = [ wrapBitmap "arch_10x10.xbm"
 	       , wrapBitmap "fox.xbm"
 	       , wrapBitmap "dish.xbm"
@@ -60,6 +60,9 @@ myWorkspaces = [ wrapBitmap "arch_10x10.xbm"
 
 wrapBitmap :: String -> String
 wrapBitmap bitmap = "^p(5)^i(" ++ myBitmapsDir ++ bitmap ++ ")^p(5)"
+
+-- Number / Label Based Workspaces
+-- myWorkspaces = ["term","www"] ++ map show [3..9]
 
 -- Window rules
 myManageHook = composeAll

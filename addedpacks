@@ -11,12 +11,14 @@ scrot
 sshfs
 smbclient
 sudo
-pianobar-git  ## AUR
+pianobar  ## AUR
 python-xynehttpserver ## AUR
 quickserve ## AUR
 links
 htop
 aif
+ntfs-3g
+broadcom-wl ## AUR
 
 ## Servers
 hal
@@ -32,7 +34,6 @@ dsniff
 nmap
 tcpdump
 john
-metasploit
 kismet
 
 ## GUI stuff

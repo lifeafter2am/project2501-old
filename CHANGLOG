@@ -1,4 +1,9 @@
 Version 0.2 Beta
 ------------------------
-Updated all packages to current versions
+Updated all packages to current versions (as of June 10, 2011)
 Added package aif which allows for installation of Arch Linux from live environment
+Added ntfs-3g for those times we HAVE to use it ;)
+Added broadcom_wl drivers (to use them you will manually need to load them / unload the b43 etc)
+Removed references to metasploit, as it was removed from the community repository (will likely add it back in later release)
+Added quick snippit of code to xmonad.hs that allows for easily changing to label based workspaces instead of images
+
