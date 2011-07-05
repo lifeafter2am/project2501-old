@@ -19,22 +19,24 @@ htop
 aif
 ntfs-3g
 broadcom-wl ## AUR
+compat-wireless-patched ## AUR
+pptpclient
 
 ## Servers
 hal
 openssh
+openvpn
 wicd
 
 ## Security and Privacy Tools
 macchanger
 aircrack-ng
-tor
-privoxy
 dsniff
 nmap
 tcpdump
 john
 kismet
+privoxy
 
 ## GUI stuff
 xorg-server
@@ -50,9 +52,10 @@ xmonad
 xmonad-contrib
 conky-cli ## AUR
 dzen2-xft-xpm-xinerama-svn ## AUR
-firefox
+iron-bin ## AUR
 feh
 dmenu
 rxvt-unicode-patched ## AUR
 artwiz-fonts
 flashplugin
+vimprobable2

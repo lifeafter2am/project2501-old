@@ -7,3 +7,13 @@ Added broadcom_wl drivers (to use them you will manually need to load them / unl
 Removed references to metasploit, as it was removed from the community repository (will likely add it back in later release)
 Added quick snippit of code to xmonad.hs that allows for easily changing to label based workspaces instead of images
 
+Version 0.3 Beta
+-----------------------
+Updated all packages to current versions (as of July 4, 2010)
+Added package openvpn
+Added package pptpclient
+Removed package Firefox
+Added package Iron
+Added package vimprobable2
+Removed package tor
+Added package compat-wireless-patched
